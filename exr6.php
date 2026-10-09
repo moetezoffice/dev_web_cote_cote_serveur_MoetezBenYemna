@@ -22,7 +22,7 @@ function sommeDiviseursStricts($nbre){
 $n = 1000;
 for ($x = 1; $x <= $n; $x++) {
     if (sommeDiviseursStricts($x) == $x){
-        echo "le nombre ". $x ." est un nombre parfait <br>";s
+        echo "le nombre ". $x ." est un nombre parfait <br>";
     }
 }
 
